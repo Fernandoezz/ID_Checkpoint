@@ -1,0 +1,20 @@
+# Ignore all unnecessary files across the entire project
+
+# Node.js (Frontend)
+node_modules/
+dist/
+.yarn/
+.yarn.lock
+
+# Java/Spring Boot (Backend)
+target/
+*.log
+*.class
+*.jar
+*.war
+
+# General
+.DS_Store
+.env
+.idea/
+.vscode/
